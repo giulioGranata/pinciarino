@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:ital");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-overflow {
+  height: 100%;
+  overflow: auto !important;
+}
+
+.darkolivegreen {
+  background-color: #7a9943;
+}
+
+.darkolivegreen-1 {
+  background-color: #8eb745d1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.home-image {
+  background-image: url("../assets/giardino.jpg");
+  background-size: cover;
+}
+
+.home-subtitle {
+  color: rgb(85, 83, 83);
+  font-size: 0.5em;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icon-bio {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image-rounded-100 {
+  border-radius: 100%;
+}
+
+.image-rounded-1 {
+  border-radius: 1%;
+}
+
+.product-title {
+  margin: 0.5rem;
+  vertical-align: middle;
+}
+
+.vertical-center {
+  top: 50%;
+}
+
+.white-text {
+  color: white;
+}

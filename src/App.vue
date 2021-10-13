@@ -33,7 +33,7 @@
     </v-navigation-drawer>
 
     <v-main class="darkolivegreen-1 lighten-2">
-      <v-container>
+      <v-container fluid>
         <v-row>
           <v-col cols="12" sm="12">
             <v-sheet elevation="20" height="84vh" rounded="lg" class="sheet">

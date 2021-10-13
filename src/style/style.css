@@ -29,11 +29,18 @@ body {
 .home-image {
   background-image: url("../assets/giardino.jpg");
   background-size: cover;
+  background-position: center, center;
+}
+
+.home-logo {
+  max-width: 40%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 .home-subtitle {
   color: rgb(85, 83, 83);
-  font-size: 0.5em;
+  font-size: 1.3vw;
   font-style: italic;
   font-weight: bold;
   text-align: center;

@@ -1,33 +1,18 @@
 <template>
-  <v-container class="container-overflow home-image">
+  <div class="container-overflow home-image">
     <v-row class="mt-2">
       <v-col cols="12" sm="12">
         <v-img
           contain
-          class="mx-auto"
+          class="mx-auto home-logo"
           :src="require('../assets/logo_noImage_1.png')"
-          width="35vw"
-          heigth="35vh"
         />
+        <div class="home-subtitle text-center">
+          Prodotti da Agricoltura Biologica.
+        </div>
       </v-col>
     </v-row>
-    <v-row class="home-subtitle text-center">
-      <v-col cols="12" sm="12">
-        <p>Prodotti da Agricoltura Biologica.</p>
-      </v-col>
-    </v-row>
-    <!--<v-row>
-      <v-col cols="12" sm="12" class="home-image">
-        <v-img
-          contain
-          class="mx-auto image-rounded-1"
-          :src="require('../assets/giardino.jpg')"
-          width="70%"
-          heigth="70%"
-        />
-      </v-col>
-    </v-row>-->
-  </v-container>
+  </div>
 </template>
 
 <script>

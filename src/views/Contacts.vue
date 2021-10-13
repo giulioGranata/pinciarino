@@ -5,7 +5,7 @@
       <v-row>
         <v-col class="text-center" cols="12" sm="4">
           <div class="my-3"><v-icon large>mdi-map-marker</v-icon></div>
-          <div><strong>LA NOSTRA SEDE</strong></div>
+          <div><strong>LA NOSTRA SEDE </strong></div>
           <div>via Berlinguer 1, 71018 Vico del Gargano (Foggia)</div>
         </v-col>
         <v-col class="text-center" cols="12" sm="4">
